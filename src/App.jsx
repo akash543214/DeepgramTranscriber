@@ -9,9 +9,7 @@ const App = () => {
   const [transcriptions, setTranscriptions] = useState([]);
 
   // Verify the environment variable is available
-  useEffect(() => {
-    console.log('Deepgram API Key:', import.meta.env.VITE_DEEPGRAM_API_KEY);
-  }, []);
+
 
   const handleStopRecording = async (audioBlob) => {
     const formData = new FormData();
