@@ -41,7 +41,7 @@ const App = () => {
      
     <h1 class="text-4xl font-bold text-blue-600 mb-4 shadow-lg">Click the recorder to record and transcribe audio</h1>
       <div class="flex items-center justify-center h-full">
-        <img src="https://github.com/https://github.com/akash543214/DeepgramTranscriber/blob/main/src/assets/audio.jpg?raw=true/DeepgramTranscriber/blob/main/src/assets/audio.jpg" alt="Audio Image" class="max-w-full h-auto w-64"/>
+        <img src="https://raw.githubusercontent.com/akash543214/DeepgramTranscriber/main/src/assets/audio.jpg" alt="Audio Image" class="max-w-full h-auto w-64"/>
     </div>      <MicrophoneButton onStop={handleStopRecording} />
       {transcriptions.map((transcription, index) => (
         <TranscriptionDisplay key={index} transcription={transcription} />
