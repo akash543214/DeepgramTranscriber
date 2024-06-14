@@ -16,7 +16,7 @@ const App = () => {
     formData.append('audio', audioBlob);
 
     //console.log('Audio Blob:', audioBlob); // Debugging line
-   // console.log('Audio Blob Type:', audioBlob.type); // Debugging line
+   console.log('Audio Blob Type:', audioBlob.type); // Debugging line
 
     try {
       const response = await axios.post('https://api.deepgram.com/v1/listen', formData, {
